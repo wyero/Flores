@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c56b45e.css",
+    "main.js": "/static/js/main.635dc885.js",
+    "static/js/787.e5fed7bf.chunk.js": "/static/js/787.e5fed7bf.chunk.js",
+    "static/media/VideoFlores.mp4": "/static/media/VideoFlores.4623ebd912a4f0d3a19f.mp4",
+    "static/media/bg-kelimutu.jpg": "/static/media/bg-kelimutu.cd69ebe1b83b24f5c468.jpg",
+    "static/media/bg-login.jpg": "/static/media/bg-login.6eb566c8fb9fce2c5ac8.jpg",
+    "index.html": "/index.html",
+    "main.9c56b45e.css.map": "/static/css/main.9c56b45e.css.map",
+    "main.635dc885.js.map": "/static/js/main.635dc885.js.map",
+    "787.e5fed7bf.chunk.js.map": "/static/js/787.e5fed7bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c56b45e.css",
+    "static/js/main.635dc885.js"
+  ]
+}

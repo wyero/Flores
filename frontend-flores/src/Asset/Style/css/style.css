@@ -1,0 +1,1187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../Image/bg-kelimutu.jpg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.nav .link {
+  text-decoration: none;
+}
+.nav .link .logo-flores {
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li .link {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.nav ul li .link:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.content-home {
+  width: 80%;
+  margin: auto;
+}
+.content-home p {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  margin: auto;
+  line-height: 80px;
+  letter-spacing: 7px;
+}
+
+.mobile-navigation {
+  display: none;
+}
+.mobile-navigation ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  background: #0a0a0a;
+  opacity: 0.8;
+  width: 250px;
+  height: 100vh;
+  z-index: 999;
+  top: 0;
+  right: 0;
+}
+.mobile-navigation ul li {
+  list-style: none;
+  padding: 23px;
+}
+.mobile-navigation ul li .link {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+.mobile-navigation ul li .link:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.mobile-navigation ul li:first-of-type {
+  margin-top: 70px;
+}
+.mobile-navigation .hamburger-menu {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  z-index: 999;
+}
+.mobile-navigation .close {
+  z-index: 1000;
+}
+
+.about {
+  background: black;
+  opacity: 0.9;
+}
+
+.content-about {
+  width: 80%;
+  margin: auto;
+  padding: 0 0 40px 0;
+}
+.content-about p {
+  padding: 70px 0 15px 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+.content-about section {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.content-about section .video-about-flores {
+  cursor: pointer;
+}
+.content-about section .video-about-flores:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.content-about section .video-about-flores video {
+  width: 360px;
+  border-radius: 10px;
+}
+.content-about section .content-about-flores {
+  line-height: 30px;
+}
+.content-about section .content-about-flores p {
+  color: white;
+  padding: 0 20px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.travel {
+  background: black;
+  opacity: 0.9;
+}
+.travel .tw {
+  text-align: center;
+  padding: 70px 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.content-travel {
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+.content-travel .main-travel-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content-travel .main-travel-content div {
+  overflow: hidden;
+  width: 240px;
+  border-radius: 10px;
+  background: #0a0a0a;
+  margin: 10px 3px;
+  cursor: pointer;
+}
+.content-travel .main-travel-content div:hover {
+  transition: 0.5s;
+  opacity: 0.9;
+}
+.content-travel .main-travel-content div .img {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  overflow: hidden;
+}
+.content-travel .main-travel-content div .img img {
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+}
+.content-travel .main-travel-content div .img img:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.content-travel .main-travel-content div .content {
+  margin: 5px 0 0 0;
+  text-align: center;
+  padding: 0px 0 25px 0;
+}
+.content-travel .main-travel-content div .content p:last-of-type {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.content-travel .main-travel-content div .content .content1 {
+  text-align: left;
+  margin-top: 15px;
+  padding: 0 10px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.content-travel .main-travel-content div .content p:first-of-type {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content-travel .main-travel-content div .content .active {
+  width: 240px;
+  position: relative;
+  bottom: -15px;
+  right: 6px;
+}
+.content-travel .main-travel-content div .content .active .detail {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  z-index: 999;
+}
+.content-travel .main-travel-content div .content .active .detail:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+.gallery {
+  background: black;
+  opacity: 0.9;
+}
+
+.content-gallery {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.content-gallery p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 70px 0 20px 0;
+  text-align: center;
+}
+.content-gallery .main-gallery {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content-gallery .main-gallery .img {
+  margin: 5px 3px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.content-gallery .main-gallery .img img {
+  width: 240px;
+  height: 280px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.content-gallery .main-gallery .img img:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  z-index: 999;
+  opacity: 0.8;
+}
+
+.contact {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.content-contact {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0a0a0a;
+}
+.content-contact p {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 70px 0 20px 0;
+}
+.content-contact .form-contact {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.content-contact .form-contact form {
+  width: 80%;
+  margin: auto;
+}
+.content-contact .form-contact form input, .content-contact .form-contact form .new-tour .right-tour section main .form .form-input select, .new-tour .right-tour section main .form .form-input .content-contact .form-contact form select {
+  width: 100%;
+  padding: 7px 5px;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  border: 1px solid silver;
+  margin: 10px 0;
+  background: #0a0a0a;
+  color: white;
+}
+.content-contact .form-contact form input:focus, .content-contact .form-contact form .new-tour .right-tour section main .form .form-input select:focus, .new-tour .right-tour section main .form .form-input .content-contact .form-contact form select:focus {
+  outline: 1px solid #0575e6;
+}
+.content-contact .form-contact form ::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.content-contact .form-contact form textarea {
+  width: 100%;
+  padding: 7px 5px;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background: #0a0a0a;
+  border: 1px solid silver;
+  height: 150px;
+  margin-top: 10px;
+  color: white;
+  resize: none;
+}
+.content-contact .form-contact form textarea:focus {
+  outline: 1px solid #0575e6;
+}
+.content-contact .form-contact form button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 4px 30px;
+  margin-top: 10px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right, #0575e6, #021b79);
+  cursor: pointer;
+}
+.content-contact .form-contact form button:hover {
+  transition: 0.3s;
+  opacity: 0.9;
+}
+
+.footer {
+  background: black;
+  opacity: 0.9;
+}
+
+.content-footer {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.content-footer footer {
+  padding: 25px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content-footer footer .main-footer {
+  margin: 0 10px;
+  width: 320px;
+}
+.content-footer footer .main-footer .link-logo {
+  text-decoration: none;
+}
+.content-footer footer .main-footer .link-logo .logo-flores {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.content-footer footer .main-footer p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.content-footer footer .main-footer .icon-medsos {
+  display: flex;
+  padding-left: 10px;
+}
+.content-footer footer .main-footer .icon-medsos .link-medsos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  background: #0a0a0a;
+}
+.content-footer footer .main-footer .icon-medsos .link-medsos .medsos {
+  color: white;
+  font-size: 20px;
+}
+.content-footer footer .main-footer .icon-medsos .fb:hover {
+  transition: 0.3s;
+  background: linear-gradient(to right, #0575e6, #021b79);
+}
+.content-footer footer .main-footer .icon-medsos .ig:hover {
+  transition: 0.3s;
+  background: linear-gradient(to right, #0575e6, #021b79);
+}
+.content-footer footer .main-footer .p2 {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.content-footer footer .main-footer .p3 {
+  padding-left: 10px;
+}
+.content-footer footer .main-footer .link {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  padding-left: 10px;
+  position: relative;
+}
+.content-footer footer .main-footer .link:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+  left: 10px;
+}
+.content-footer footer .main-footer .contact {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.content-footer footer .main-footer .contact .cp {
+  color: white;
+  font-size: 22px;
+  margin: 12px;
+}
+.content-footer footer .main-footer .contact .contact1 {
+  position: relative;
+  font-size: 15px;
+  cursor: pointer;
+}
+.content-footer footer .main-footer .contact .contact1:hover {
+  transition: 5s;
+  left: 10px;
+}
+.content-footer footer .mf2 {
+  width: 200px;
+}
+.content-footer footer .mf3 {
+  width: 250px;
+}
+
+.detail-content {
+  background: #0a0a0a;
+  padding-bottom: 20px;
+  width: 100%;
+  opacity: 0.9;
+}
+.detail-content .main-detail {
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.detail-content .main-detail .image {
+  margin-right: 30px;
+}
+.detail-content .main-detail .image img {
+  border-radius: 3px;
+  width: 450px;
+  height: 300px;
+}
+.detail-content .main-detail .image img:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.9;
+}
+.detail-content .main-detail .cnt {
+  width: 450px;
+}
+.detail-content .main-detail .cnt p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.detail-content .main-detail .cnt .cnt1 {
+  font-size: 14px;
+  color: silver;
+  font-weight: 200;
+  padding-left: 5px;
+  margin: 5px 0;
+}
+.detail-content .main-detail .cnt .cnt2 {
+  margin: 20px 0 10px 0;
+  font-size: 22px;
+  padding-left: 5px;
+}
+.detail-content .main-detail .cnt .cnt3 {
+  padding-left: 5px;
+  opacity: 0.9;
+  line-height: 27px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.login {
+  background: url("../../Image/bg-login.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .main-login {
+  width: 280px;
+}
+.login .main-login p {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+.login .main-login form .error {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  font-weight: 600;
+  color: rgb(246, 83, 83);
+  font-size: 18px;
+  margin-bottom: -12px;
+  margin-top: 3px;
+}
+.login .main-login form .input {
+  border-bottom: 2px solid skyblue;
+  display: flex;
+  align-items: center;
+}
+.login .main-login form .input label {
+  font-size: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+  top: 11px;
+  position: relative;
+  left: 10px;
+}
+.login .main-login form .input input, .login .main-login form .input .new-tour .right-tour section main .form .form-input select, .new-tour .right-tour section main .form .form-input .login .main-login form .input select {
+  position: relative;
+  top: 10px;
+  width: 1000px;
+  padding: 5px;
+  border: none;
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  margin-left: 15px;
+  background: none;
+  outline: none;
+  color: whitesmoke;
+}
+.login .main-login form .input ::-webkit-input-placeholder {
+  color: whitesmoke;
+}
+.login .main-login form .btn {
+  margin: 35px 0;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 100%;
+  padding: 2px 0;
+  color: whitesmoke;
+  background: none;
+  border: 1px solid skyblue;
+  border-radius: 7px;
+}
+.login .main-login form .btn:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.dashboard {
+  display: flex;
+}
+.dashboard .right-dashboard {
+  width: 100%;
+}
+.dashboard .right-dashboard nav {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background: #fff;
+  position: sticky;
+  box-shadow: 1px 1px 3px grey;
+  top: 0;
+}
+.dashboard .right-dashboard nav .menu {
+  cursor: pointer;
+  font-size: 28px;
+  margin-left: 10px;
+  color: #0a0a0a;
+}
+.dashboard .right-dashboard nav h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin-left: 10px;
+}
+.dashboard .right-dashboard section {
+  padding: 5px 10px;
+}
+.dashboard .right-dashboard section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.dashboard .right-dashboard main .dashboard-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3px;
+}
+.dashboard .right-dashboard main .dashboard-main #dashboard {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px grey;
+  background: linear-gradient(to right, #0575e6, #021b79);
+  padding: 30px 0;
+  width: 220px;
+}
+.dashboard .right-dashboard main .dashboard-main #dashboard .content {
+  text-align: center;
+}
+.dashboard .right-dashboard main .dashboard-main #dashboard .content p {
+  font-size: 22px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+.dashboard .right-dashboard main .dashboard-main #dashboard .icon {
+  font-size: 45px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+.dashboard .right-dashboard main .dashboard-main #dashboard:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.sidebar {
+  width: 320px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  background: #021b79;
+}
+.sidebar .logo-flores {
+  text-align: center;
+  padding-top: 5px;
+}
+.sidebar .logo-flores .link {
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.sidebar .logo-flores .flores {
+  display: none;
+}
+.sidebar aside .sidebar-menu {
+  margin: 35px 0;
+}
+.sidebar aside .sidebar-menu:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
+.sidebar aside .sidebar-menu .link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 30px;
+}
+.sidebar aside .sidebar-menu .link span {
+  margin-left: 5px;
+}
+.sidebar aside .sidebar-menu .link .icon {
+  font-size: 20px;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.sidebar aside .sidebar-menu #btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-travel, .new-tour {
+  display: flex;
+}
+.admin-travel .right-travel, .new-tour .right-travel, .new-tour .right-tour {
+  width: 100%;
+}
+.admin-travel .right-travel nav, .new-tour .right-travel nav, .new-tour .right-tour nav {
+  display: flex;
+  align-items: center;
+  height: 57px;
+  background: #fff;
+  height: 70px;
+  position: sticky;
+  box-shadow: 1px 1px 3px grey;
+  top: 0;
+}
+.admin-travel .right-travel nav .menu, .new-tour .right-travel nav .menu, .new-tour .right-tour nav .menu {
+  cursor: pointer;
+  font-size: 28px;
+  margin-left: 10px;
+  color: #0a0a0a;
+}
+.admin-travel .right-travel nav h1, .new-tour .right-travel nav h1, .new-tour .right-tour nav h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin-left: 10px;
+}
+.admin-travel .right-travel section, .new-tour .right-travel section, .new-tour .right-tour section {
+  padding: 5px 15px 10px 15px;
+  background: #f1f1f1;
+  height: 85vh;
+}
+.admin-travel .right-travel section main, .new-tour .right-travel section main, .new-tour .right-tour section main {
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px grey;
+  overflow: auto;
+  height: 80vh;
+}
+.admin-travel .right-travel section main h1, .new-tour .right-travel section main h1, .new-tour .right-tour section main h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.admin-travel .right-travel section main .link, .new-tour .right-travel section main .link, .new-tour .right-tour section main .link {
+  margin: 20px 0 15px 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 8px 5px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: linear-gradient(to right, #0575e6, #021b79);
+  border-radius: 3px;
+}
+.admin-travel .right-travel section main .link:hover, .new-tour .right-travel section main .link:hover, .new-tour .right-tour section main .link:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+.admin-travel .right-travel section main .link .icon, .new-tour .right-travel section main .link .icon, .new-tour .right-tour section main .link .icon {
+  font-size: 22px;
+  margin-right: 3px;
+}
+.admin-travel .right-travel section main .gg, .new-tour .right-travel section main .gg, .new-tour .right-tour section main .gg {
+  width: 190px;
+  padding: 8px 0;
+}
+.admin-travel .right-travel section main .table, .new-tour .right-travel section main .table, .new-tour .right-tour section main .table {
+  margin-top: 7px;
+  margin-left: 15px;
+  padding-bottom: 10px;
+}
+.admin-travel .right-travel section main .table table, .new-tour .right-travel section main .table table, .new-tour .right-tour section main .table table {
+  padding: 10px 0;
+  border-collapse: collapse;
+  width: 90%;
+}
+.admin-travel .right-travel section main .table table thead th, .new-tour .right-travel section main .table table thead th, .new-tour .right-tour section main .table table thead th {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 3px 0;
+  border-bottom: 1px solid silver;
+}
+.admin-travel .right-travel section main .table table thead .message, .new-tour .right-travel section main .table table thead .message, .new-tour .right-tour section main .table table thead .message {
+  width: 250px;
+}
+.admin-travel .right-travel section main .table table tbody td, .new-tour .right-travel section main .table table tbody td, .new-tour .right-tour section main .table table tbody td {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 5px 0;
+}
+.admin-travel .right-travel section main .table table tbody .message, .new-tour .right-travel section main .table table tbody .message, .new-tour .right-tour section main .table table tbody .message {
+  text-align: left;
+}
+.admin-travel .right-travel section main .table table tbody td:last-of-type, .new-tour .right-travel section main .table table tbody td:last-of-type, .new-tour .right-tour section main .table table tbody td:last-of-type {
+  display: flex;
+  justify-content: space-evenly;
+}
+.admin-travel .right-travel section main .table table tbody td:last-of-type .link, .new-tour .right-travel section main .table table tbody td:last-of-type .link, .new-tour .right-tour section main .table table tbody td:last-of-type .link {
+  width: 60px;
+  margin: 0 5px;
+  font-size: 14px;
+  padding: 3px 0;
+  font-weight: 300;
+  background: blue;
+}
+.admin-travel .right-travel section main .table table tbody td:last-of-type .link:hover, .new-tour .right-travel section main .table table tbody td:last-of-type .link:hover, .new-tour .right-tour section main .table table tbody td:last-of-type .link:hover {
+  opacity: 0.7;
+}
+.admin-travel .right-travel section main .table table tbody td:last-of-type .btn, .new-tour .right-travel section main .table table tbody td:last-of-type .btn, .new-tour .right-tour section main .table table tbody td:last-of-type .btn {
+  border: none;
+  cursor: pointer;
+  background: red;
+}
+.admin-travel .right-travel section main .table table tbody img, .new-tour .right-travel section main .table table tbody img, .new-tour .right-tour section main .table table tbody img {
+  width: 170px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.new-tour .right-tour nav {
+  position: sticky;
+  top: 0;
+}
+.new-tour .right-tour section main h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-bottom: 2px solid #0a0a0a;
+}
+.new-tour .right-tour section main .form {
+  padding: 10px 0;
+  width: 100%;
+}
+.new-tour .right-tour section main .form .error {
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  color: red;
+  font-weight: 400;
+}
+.new-tour .right-tour section main .form .form-input {
+  margin: 5px 0 0 30px;
+}
+.new-tour .right-tour section main .form .form-input label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.new-tour .right-tour section main .form .form-input input, .new-tour .right-tour section main .form .form-input select {
+  width: 90%;
+  padding: 3px 5px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+.new-tour .right-tour section main .form .form-input input:focus, .new-tour .right-tour section main .form .form-input select:focus {
+  border: 1px solid blue;
+}
+.new-tour .right-tour section main .form .form-input select {
+  width: 91.3%;
+  background: none;
+}
+.new-tour .right-tour section main .form .form-input textarea {
+  width: 90%;
+  padding: 3px 5px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  height: 90px;
+  resize: none;
+}
+.new-tour .right-tour section main .form .form-input textarea:focus {
+  border: 1px solid blue;
+}
+.new-tour .right-tour section main .form .form-input .dskL {
+  height: 170px;
+}
+.new-tour .right-tour section main .form figure img {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.new-tour .right-tour section main .form .btn {
+  margin: 13px 0 0 30px;
+  cursor: pointer;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #0575e6, #021b79);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.new-tour .right-tour section main .form .btn:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.new-tour .right-tour section main .form .btn1 {
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+
+.swiper {
+  width: 450px;
+  height: 300px;
+}
+.swiper .swiper-button-next, .swiper .swiper-button-prev {
+  color: whitesmoke;
+}
+.swiper .swiper-button-next:hover, .swiper .swiper-button-prev:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: whitesmoke;
+}
+
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  color: grey;
+}
+
+@media screen and (max-width: 1162px) {
+  .detail-content .main-detail {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1148px) {
+  .content-home p {
+    letter-spacing: 3px;
+  }
+}
+@media screen and (max-width: 1052px) {
+  .content-home p {
+    font-size: 40px;
+  }
+  .content-about section .content-about-flores {
+    line-height: 25px;
+  }
+  .content-about section .content-about-flores p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .detail-content .main-detail .image img {
+    width: 400px;
+    height: 280px;
+  }
+  .swiper {
+    width: 400px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .detail-content .main-detail .image img {
+    width: 350px;
+    height: 250px;
+  }
+  .swiper {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .nav ul li .link {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .detail-content .main-detail .image {
+    margin-right: 5px;
+  }
+  .detail-content .main-detail .cnt {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .content-about section {
+    flex-direction: column;
+  }
+  .content-about section .content-about-flores {
+    line-height: 30px;
+  }
+  .content-about section .content-about-flores p {
+    padding-top: 30px;
+    font-size: 17px;
+  }
+  .content-contact .form-contact {
+    width: 100%;
+  }
+  .content-contact .form-contact form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .detail-content .main-detail .image img {
+    width: 500px;
+    height: 300px;
+  }
+  .detail-content .main-detail .cnt {
+    width: 500px;
+  }
+  .detail-content .main-detail .cnt p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .detail-content .main-detail .cnt .cnt1 {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .detail-content .main-detail .cnt .cnt3 {
+    text-align: left;
+  }
+  .swiper {
+    width: 500px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .nav ul li .link {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav .link .logo-flores {
+    padding-left: 12px;
+  }
+  .mobile-navigation {
+    display: block;
+  }
+  .mobile-navigation ul li {
+    padding: 25px;
+  }
+  .content-travel .main-travel-content div {
+    width: 300px;
+  }
+  .content-travel .main-travel-content div .content p:last-of-type {
+    padding: 15px 0 10px 0;
+  }
+  .content-travel .main-travel-content div .active {
+    left: 25px;
+  }
+  .content-gallery .main-gallery .img img {
+    width: 300px;
+    height: 300px;
+  }
+  .content-footer footer {
+    width: 300px;
+    margin: auto;
+  }
+  .content-footer footer .main-footer {
+    margin-top: 10px;
+  }
+  .content-footer footer .main-footer .p3 {
+    padding-left: 0;
+  }
+  .content-footer footer .main-footer .contact {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content-home p {
+    font-size: 35px;
+    line-height: 70px;
+  }
+  .detail-content .main-detail .image img {
+    width: 350px;
+    height: 250px;
+  }
+  .detail-content .main-detail .cnt {
+    width: 350px;
+  }
+  .swiper {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .content-home p {
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .mobile-navigation {
+    display: block;
+  }
+  .mobile-navigation ul li {
+    padding: 13px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .detail-content .main-detail .image img {
+    width: 100%;
+  }
+  .detail-content .main-detail .cnt {
+    width: 100%;
+  }
+  .swiper {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
