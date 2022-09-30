@@ -11,6 +11,7 @@ import CountImageRoute from './routes/CountImageRoute'
 import CountMessageRoute from './routes/CountMessageRoute'
 import MessageRoute from './routes/MessageRoute'
 import CountUserRoute from './routes/CountUserRoute'
+import RegisterRoute from './routes/RegisterRoute'
 import dotenv from 'dotenv'
 const db = require("./models")
 dotenv.config()
@@ -45,6 +46,7 @@ app.use(CountTourRoute)
 app.use(CountImageRoute)
 app.use(CountMessageRoute)
 app.use(CountUserRoute)
+app.use(RegisterRoute)
 
 app.listen(process.env.APP_PORT, () => {
     console.log("Server Running")

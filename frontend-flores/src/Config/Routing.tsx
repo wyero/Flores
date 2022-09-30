@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import DetailContent from '../Components/Visitor-Content/DetailContent'
 import MainCourse from '../Pages/MainCourse'
 import { Login, Dashboard, AdminTravel, NewTour, TravelEdit, Image, NewImage, Admin, 
-         NewAdmin, AdminEdit, NotFound, Message } from '../Components'
+         NewAdmin, AdminEdit, NotFound, Message, Register } from '../Components'
 
 const Routing = () => {
   return (
@@ -23,6 +23,7 @@ const Routing = () => {
             <Route path='/edit-admin/:id' element={<AdminEdit/>}/>
             <Route path='/pesan' element={<Message/>}/>
             <Route path='*' element={<NotFound/>}/>
+            <Route path='/register' element={<Register/>}/>
         </Routes>
     </Router>
   )

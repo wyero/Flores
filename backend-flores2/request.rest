@@ -64,3 +64,16 @@ Content-Type: application/json
     "nomortlpn":"081234567890",
     "pesan":"Apakah disetiap tempat wisata terdapat penginapan?"
 }
+
+###
+//REGISTER ADMIN
+POST http://localhost:8000/register-admin
+Content-Type: application/json
+
+{
+    "nama":"Wyero JR",
+    "email":"wyero@gmail.com",
+    "password":"wyero",
+    "ulangiPassword":"wyero",
+    "role":"Admin Utama"
+}

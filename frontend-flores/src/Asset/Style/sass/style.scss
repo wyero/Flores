@@ -1007,6 +1007,79 @@ $width: 80%;
     font-weight: 800;
     color: grey;
 }
+.register{
+    display: flex;
+    .left-register{
+        background: url('../../Image/register.jpg');
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        width: 75%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .right-register{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        h1{
+            font-family: $font2;
+            font-size: 40px;
+            border-bottom: 3px solid whitesmoke;
+        }
+        .error{
+            color: red;
+            font-family: $font2;
+            font-size: 14px;
+            text-align: center;
+            width: 250px;
+        }
+        .form-register{
+            margin: 10px 0;
+            input{
+                width: 240px;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid silver;
+                &:focus{
+                    outline: 1px solid #021b79;
+                }
+            }
+            ::-webkit-input-placeholder{
+                font-family: $font2;
+            }
+            select{
+                width: 250px;
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid silver;
+                &:focus{
+                    outline: 1px solid #021b79;
+                }
+            }
+            button{
+                margin-top: 7px;
+                padding: 3px 13px;
+                cursor: pointer;
+                background: #8E2DE2;
+                background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+                background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-family: $font2;
+                font-size: 15px;
+                font-weight: 700;
+                &:hover{
+                    transition: 0.3s;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 1162px){
     .detail-content{
         .main-detail{
