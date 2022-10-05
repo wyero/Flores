@@ -17,7 +17,6 @@ import AdminEdit from "./Admin/AdminEdit";
 import Contact from "./Visitor-Content/Contact";
 import NotFound from "./NotFound/NotFound";
 import Message from "./Message/Message";
-import Register from "./Register/Register";
 
 export {Navigation, Home, About, Travel, Gallery, Footer, Login, Dashboard, AdminTravel, NewTour, 
-        TravelEdit, Image, NewImage, Admin, NewAdmin, AdminEdit, NotFound, Contact, Message, Register}
+        TravelEdit, Image, NewImage, Admin, NewAdmin, AdminEdit, NotFound, Contact, Message}
